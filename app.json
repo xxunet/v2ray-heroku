@@ -1,0 +1,40 @@
+{
+    "name": "V2Ray",
+    "description": "Deploy V2ray on Heroku.",
+    "keywords": [
+        "V2Ray"
+    ],
+    "env": {
+        "V2flyDockerTag": {
+         "description": "V2fly Official Docker ver",
+        "value": "v4.40.1"
+        },
+        "UUID": {
+            "description": "V2Ray UUID",
+            "value": "ce7ea10b-5b27-49ab-a93d-6b184df9ccee"
+        },
+        "AID": {
+            "description": "AlterID",
+            "value": "64"
+        },
+        "WSPath": {
+            "description": "WebSocket Path",
+            "value": "/vws"
+        },
+        "SRmed": {
+            "description": "Shadowsocks method",
+            "value": "aes-256-gcm"
+        },
+        "SRpwd": {
+            "description": "Shadowsocks password",
+            "value": "s12345s"
+        },
+        "Netw": {
+            "description": "streamSettings network",
+            "value": "ws"
+        }
+    },
+    "website": "https://github.com/xxunet/v2y-ho",
+    "repository": "https://github.com/xxunet/v2y-ho",
+    "stack": "container"
+}
