@@ -5,9 +5,9 @@
         "V2Ray"
     ],
     "env": {
-        "V2flyDockerTag": {
+        "V2fly Official Docker Tag  v4.40.1": {
          "description": "V2fly Official Docker ver",
-        "value": "v4.40.1"
+        "value": "vmess vless shadowsocks"
         },
         "UUID": {
             "description": "V2Ray UUID",
@@ -16,6 +16,10 @@
         "AID": {
             "description": "AlterID",
             "value": "64"
+        },
+         "Proto": {
+            "description": "protocol",
+            "value": "vless"
         },
         "WSPath": {
             "description": "WebSocket Path",
