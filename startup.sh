@@ -22,7 +22,7 @@ cat << EOF > /etc/v2ray/config.json
      "inbounds": [{
         "port": ${PORT},
         "protocol": "${Proto}",
-        "settings": { "clients": [{"id": "${ID}","decryption": "none","alterId": ${AID}, "method": "${SRmed}", "password": "$SRpwd"}]},
+        "settings": { "clients": [{"id": "${UUID}","decryption": "none","alterId": ${AID}, "method": "${SRmed}", "password": "$SRpwd"}]},
         "streamSettings": {"network": "${Netw}","wsSettings": {"path": "${WSPath}" } }
      }],
    "outbounds": [{"protocol": "freedom"}]
